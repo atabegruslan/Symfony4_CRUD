@@ -2,12 +2,12 @@
 
 namespace App\Controller;
 
-// use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Response;
 
 class ArticleController 
 {
   public function index() 
   {
-    return 'Test';//new Response('<p>Hello</p>');
+    return new Response('<p>Hello</p>');
   }
 }
