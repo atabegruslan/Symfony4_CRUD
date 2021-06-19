@@ -17,6 +17,11 @@ class ArticleController extends AbstractController
   {
     //return new Response('<p>Hello</p>');
 
-    return $this->render('articles/index.html.twig'/*, array('articles' => $articles)*/);
+    $articles = [
+      'aaa' => 'bbb',
+      'ccc' => 'ddd',
+    ];
+
+    return $this->render('articles/index.html.twig', ['articles' => $articles]);
   }
 }
