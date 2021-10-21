@@ -8,7 +8,7 @@
 - https://www.tutorialspoint.com/symfony/symfony_installation.htm
 - https://www.youtube.com/watch?v=Bo0guUbL5uo
 
-![Without defining home path](https://raw.githubusercontent.com/Ruslan-Aliyev/Tour-Hub-Symfony4/master/Illustrations/0a.PNG)
+![Without defining home path](/Illustrations/0a.PNG)
 
 ```
 php bin/console make:controller
@@ -23,4 +23,4 @@ index:
    controller: App\Controller\WelcomeController::index
 ```
 
-![defined home path](https://raw.githubusercontent.com/Ruslan-Aliyev/Tour-Hub-Symfony4/master/Illustrations/0b.PNG)
+![defined home path](/Illustrations/0b.PNG)
